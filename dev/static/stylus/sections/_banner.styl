@@ -1,0 +1,26 @@
+.banner
+  position relative
+  padding: 70px
+  background url("../img/general/banner.jpg")center no-repeat
+  background-size cover
+  &:after
+    content ''
+    display block
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    height: 20px
+    background url("../img/general/wave-bottom-white.png") 0 0 no-repeat
+  .container
+    min-height: 550px
+    display flex
+    justify-content center
+    align-items flex-end
+
+.banner-text
+  text-align center
+  font-size 30px
+  font-weight 700
+  line-height 1.4
+  color white
